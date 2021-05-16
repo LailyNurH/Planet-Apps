@@ -9,8 +9,6 @@ This application is built to complete dicoding submissions, Belajar membuat apli
 
 # Interface 
 
-SplashScreen | Home | Detail | Profil
---- | --- | --- | --- | --- 
 ![SpalshScreen](https://github.com/LailyNurH/Planet-Apps/blob/master/src/splash.JPG) | ![Home](https://github.com/LailyNurH/Planet-Apps/blob/master/src/main.JPG) | ![Detail](https://github.com/LailyNurH/Planet-Apps/blob/master/src/detail.JPG) | ![Profile](https://github.com/LailyNurH/Planet-Apps/blob/master/src/profile.JPG)
 
 
