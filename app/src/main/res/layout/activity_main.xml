@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E3963"
+    tools:context="com.laily.submissionplanetapps.MainActivity">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#4B4577">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinssb"
+            android:foregroundGravity="center"
+            android:text="Explore Planet"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/ic_profile" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_planet"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/linear"
+        android:layout_marginBottom="25dp"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_planet" />
+</RelativeLayout>
